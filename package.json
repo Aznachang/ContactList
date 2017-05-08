@@ -1,0 +1,43 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "contact list app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "^6.9.1",
+    "npm": "^3.10.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aznachang/ContactList.git"
+  },
+  "author": "Albert Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aznachang/ContactList/issues"
+  },
+  "homepage": "https://github.com/Aznachang/ContactList#readme",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.8.0",
+    "mongoose-auto-increment": "^5.0.1",
+    "passport": "^0.3.2",
+    "passport-google-oauth": "^1.0.0",
+    "request": "^2.79.0",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "eslint-config-rallycoding": "^3.2.0",
+    "mocha": "^3.2.0"
+  }
+}
